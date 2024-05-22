@@ -1,13 +1,5 @@
-
-/**
- * @jest-environment jsdom
- */
-
-test('use jsdom in this test file', () => {
-  const element = document.createElement('div');
-  expect(element).not.toBeNull();
-});
-
+import "jest-canvas-mock";
+import styled from 'styled-components/macro';
 
 const {
     getRandomWord,
